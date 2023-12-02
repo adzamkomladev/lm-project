@@ -1,0 +1,88 @@
+{
+    "open": "Open",
+    "hebrew": "Hebrew",
+    "english": "English",
+    "russian": "Russian",
+    "chooseLang": "Select Language",
+    "home": "Home",
+    "back": "Back",
+    "space": "Space",
+    "letters": "Letters",
+
+    "HOME": {
+        "tenant": "Tenant",
+        "deliveryOutgoingMail": "Delivery of outgoing mail",
+        "pullingPack": "Pulling a package",
+        "postmanCourier": "Postman / Courier",
+        "deliveryRegisteredMailToTenant": "Delivery of registered mail to the tenant",
+        "deliveryPackToTenant": "Delivery of a package",
+        "viewingTenantsName": "Viewing the names of the tenants",
+        "withdrawalMail": "Withdrawal of mail"
+    },
+
+    "APARTS": {
+        "tenantsNamed": "The names of the tenants",
+        "there": "Info",
+        "enterName": "Please enter the name of the tenant",
+        "apartament": "Apart."
+    },
+
+    "DELIVER": {
+        "header": "To deliver a package, type the barcode or scan the barcode with a scanner",
+        "barcode": "Barcode",
+        "finish": "Finish",
+        "selectPackType": "Select pack type",
+        "shipingServiceOption": "Shiping Service",
+        "newPackOption": "Tenant List",
+        "enterSenderCode": "Please, enter sender code",
+        "selectDesiredSize": "Please select desired cell size",
+        "small": "Small",
+        "medium": "Medium",
+        "big": "Big",
+        "veryBig": "Very big",
+        "pleaseInsertPack": "Please put the package into box {{boxNumber}}, Then close the box well",
+        "putConfirmInstruction": "After you put, press here",
+        "putConfirmBtn": "I Put",
+        "noFreeBox": "Unfortunately, all the package boxes are full and there is no free box. Please try another time."
+    },
+
+    "openLetterBox": {
+        "header": "To open the mailbox, type your details or scan the barcode with a scanner",
+        "apartNumber": "Apartment \n number",
+        "code": "Password"
+    },
+
+    "openPackBox": {
+        "header": "To receive a package, type the barcode or scan the barcode with a scanner",
+        "code": "Barcode"
+    },
+
+    "REPORT": {
+        "faultsReport": "",
+        "selectRequestedTopic": "",
+        "cabinDoorDoesNotOpen": "Cabin door does not open",
+        "doorCompartmentNotLocked": "Cabin door does not lock",
+        "monitorControlScreenNotWorking": "Control screen monitor is not working",
+        "barcodeReaderNotworking": "Barcode reader is not working",
+        "noIndicationReceivedInbox": "Incoming mail not received indication",
+        "monitorMailboxNotworking": "Mailbox monitor is not working",
+        "noCommunication": "No communication",
+        "other": "Other",
+        "enterCode": "Please enter a code",
+        "comments": "Comments (free text)",
+        "confirm": "Confirm"
+    },
+
+    "RESULT": {
+        "closeBoxText": "Thank you for collecting the mail. Please close the cabin door tightly",
+        "thankYouGoodbye": "Thank you and goodbye"
+    },
+
+    "ERRORS": {
+        "incorrectCode": "The code is incorrect",
+        "deviceNotAvailable": "The device is not available",
+        "serverProblem": "The server is currently unavailable",
+        "noEmptyBox": "There is no empty box",
+        "boxAreFull": "The box is full"
+    }
+}

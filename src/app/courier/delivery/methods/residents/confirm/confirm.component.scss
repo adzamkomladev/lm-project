@@ -1,0 +1,19 @@
+.content-container {
+  display: flex;
+    padding: var(--base-size);
+    margin-inline: var(--title);
+    background-color: var(--main-white);
+    justify-content: center;
+    border-radius: var(--base-size);
+
+    .apartment-code, .user-name {
+      font-size: var(--title);
+      font-weight: 600;
+      color: var(--green);
+      text-align: center;
+    }
+
+    .user-name {
+      margin-bottom: var(--sub-title);
+    }
+}

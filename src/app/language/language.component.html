@@ -1,0 +1,9 @@
+<div class="content-container">
+  <h1 class="title">{{ 'language.index.title' | translate  }}</h1>
+
+  <ul class="language-options">
+    <li (click)="setLang(lng.code)" *ngFor="let lng of _languages">
+      {{ lng.localName }}
+    </li>
+  </ul>
+</div>

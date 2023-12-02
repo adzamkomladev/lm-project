@@ -1,0 +1,55 @@
+:host {
+  display: block;
+}
+
+.form-input {
+  width: 60%;
+  margin-bottom: var(--base-size);
+}
+
+.inner-container {
+  background-color: var(--main-white);
+  padding: var(--base-size);
+  border-radius: var(--sub-title);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  min-height: 200px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  cursor: pointer;
+  font-size: var(--base-size);
+}
+
+th,
+td {
+  padding: calc(var(--sub-title) * 0.7);
+  text-align: start;
+}
+
+th {
+  background-color: #F3F3F3;
+}
+td {
+  background-color: #F9F9F9;
+}
+
+
+tbody tr:hover {
+
+  td {
+    background-color: var(--main);
+    color: #FFFFFF;
+  }
+}

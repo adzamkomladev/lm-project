@@ -1,0 +1,192 @@
+/* You can add global styles to this file, and also import other style files */
+@import "simple-keyboard/build/css/index.css";
+
+@import url(./styles/lang.scss);
+@import url(./styles/keyboard.scss);
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  max-width: 100vw;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html[lang="he"], html[lang="ar"] {
+  direction: rtl;
+}
+
+html[lang="en"], html[lang="ru"] {
+  direction: ltr;
+}
+
+:root {
+  --warning-color: #ffb420;
+  --green: #163c44;
+  --light-gray: #eee;
+  --main: #378092;
+  --main-red: #eb5757;
+  --main-white: #ffffff;
+  --base-size: 36px;
+  --scale: 1.5;
+  --image-scale: 3.555;
+  --h1: calc(var(--h2) * var(--scale));
+  --h2: calc(var(--more-spacing) * var(--scale));
+  --more-spacing: calc(var(--box-spacing) * var(--scale));
+  --box-spacing: calc(var(--title) * var(--scale));
+  --title: calc(var(--description) * var(--scale));
+  --description: var(--base-size);
+  --sub-title: calc(var(--base-size) / var(--scale));
+  --image-width: calc(var(--base-size) * var(--image-scale));
+  --sans-serif: "Assistant", "OpenSansHebrew", sans-serif;
+}
+
+body {
+  background-color: var(--light-gray);
+  letter-spacing: 1.5px;
+  font-family: var(--sans-serif);
+  font-weight: 600;
+}
+
+.content-container {
+  padding-inline: var(--title);
+}
+
+* {
+  margin: 0;
+}
+
+:host {
+  font-size: 14px;
+  color: var(--main-white);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #008294;
+  color: var(--main-white);
+  font-weight: 600;
+  padding: 0 10%;
+}
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover,
+.toolbar #youtube-logo:hover {
+  opacity: 0.8;
+}
+
+.content {
+  margin-top: 50px;
+  padding: 0 10%;
+  overflow-x: auto;
+  flex-direction: column;
+}
+
+#footerlogo {
+  border-right: 1px solid #000;
+  margin-right: 25px;
+  padding-right: 25px;
+}
+
+@font-face {
+  font-family: OpenSansHebrew;
+  src: url("assets/fonts/OpenSansHebrew-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: OpenSansHebrew-Bold;
+  src: url("assets/fonts/OpenSansHebrew-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: OpenSansHebrew-ExtraBold;
+  src: url("assets/fonts/OpenSansHebrew-ExtraBold.ttf") format("truetype");
+}
+
+input.form-input {
+  border-radius: var(--sub-title);
+  border: 2px solid #e6e6e6;
+  background: #f6f6f6;
+  padding: var(--sub-title) 0px;
+  padding-inline: var(--sub-title);
+  color: var(--main);
+  font-family: var(--sans-serif);
+  font-size: var(--base-size);
+}
+
+input.form-input:focus {
+  outline: none;
+  border: 2px solid #e6e6e6;
+}
+
+::placeholder {
+  color: var(--main);
+  font-weight: 600;
+  opacity: 1;
+  font-family: "Assistant";
+}
+
+a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+button.app-button {
+  border-radius: calc(var(--sub-title) * 0.7);
+  background-color: var(--main);
+  box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.05);
+  padding: 12px var(--box-spacing);
+  border: none;
+  color: var(--main-white);
+  font-size: var(--title);
+  cursor: pointer;
+  font-family: var(--sans-serif);
+  font-weight: 500;
+}
+
+button.app-button[disabled] {
+  background-color: #ddd;
+}

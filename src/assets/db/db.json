@@ -1,0 +1,97 @@
+{
+  "cabinets": [
+    {
+      "id": 1,
+      "sizes": [
+        {
+          "id": 1,
+          "count": 3,
+          "size": "xs"
+        },
+        {
+          "id": 2,
+          "count": 1,
+          "size": "s"
+        },
+        {
+          "id": 3,
+          "count": 4,
+          "size": "l"
+        },
+        {
+          "id": 4,
+          "count": 2,
+          "size": "xl"
+        },
+        {
+          "id": 5,
+          "count": 3,
+          "size": "xxl"
+        }
+      ]
+    }
+  ],
+  "residents": [
+    {
+      "id": 1,
+      "fullName": "Nir",
+      "flatNumber": "3",
+      "personalCode": "12345"
+    },
+    {
+      "id": 2,
+      "fullName": "Yehudah",
+      "flatNumber": "4",
+      "personalCode": "12345"
+    },
+    {
+      "id": 3,
+      "fullName": "Komla",
+      "flatNumber": "7",
+      "personalCode": "109876"
+    },
+    {
+      "id": 4,
+      "fullName": "Peter",
+      "flatNumber": "10",
+      "personalCode": "12345"
+    },
+    {
+      "id": 5,
+      "fullName": "Daniel",
+      "flatNumber": "8",
+      "personalCode": "12345"
+    },
+    {
+      "id": 6,
+      "fullName": "Itai",
+      "flatNumber": "11"
+    },
+    {
+      "id": 7,
+      "fullName": "Francis",
+      "flatNumber": "19",
+      "personalCode": "12345"
+    }
+  ],
+  "company-codes": [
+    {
+      "id": 23,
+      "code": "123456"
+    },
+    {
+      "id": 75,
+      "code": "10987654"
+    }
+  ],
+  "package-codes": [
+    {
+      "id": 200,
+      "code": "F223344"
+    },
+    {
+      "id": 63737,
+      "code": "ABB33CC"
+    }
+  ]
+}

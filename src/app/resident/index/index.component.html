@@ -1,0 +1,24 @@
+<div class="content-container">
+  <lastmile-link-button
+    route="/resident/mails/receive"
+    text="{{ 'resident.index.mail.receiving' | translate }}"
+    imageUrl="assets/images/svgs/package.svg"
+  ></lastmile-link-button>
+  <lastmile-link-button
+    route="/resident/packages/receive"
+    text="{{ 'resident.index.package.receiving' | translate }}"
+    imageUrl="assets/images/svgs/resident_list.svg"
+  ></lastmile-link-button>
+  <lastmile-link-button
+    [disabled]="true"
+    route="/"
+    text="{{ 'resident.index.mail.certified' | translate }}"
+    imageUrl="assets/images/svgs/mail.svg"
+  ></lastmile-link-button>
+  <lastmile-link-button
+    [disabled]="true"
+    route="/"
+    text="{{ 'resident.index.package.return' | translate }}"
+    imageUrl="assets/images/svgs/mail.svg"
+  ></lastmile-link-button>
+</div>

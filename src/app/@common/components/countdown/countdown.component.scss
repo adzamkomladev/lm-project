@@ -1,0 +1,33 @@
+.return-home {
+  font-size: var(--base-size);
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  text-align: center;
+  margin-top: calc(var(--box-spacing) * 2);
+  gap: var(--sub-title);
+  align-items: center;
+
+  p {
+    width: 50%;
+  }
+
+}
+
+circle {
+  fill: none;
+  stroke: #163C44;
+  stroke-width: 6;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 2000;
+  animation-timing-function: linear;
+  animation-name: rotate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+  to {
+    stroke-dashoffset: 1000; 
+  }
+}

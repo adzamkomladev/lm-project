@@ -1,0 +1,137 @@
+{
+  "general": {
+    "resident": "Resident",
+    "courier": "Courier",
+    "confirm": "Confirm",
+    "send": "Send",
+    "ok": "OK",
+    "scan": {
+      "qr": "Or scan a personal QR code"
+    },
+    "search": {
+      "placeholder": "Search by first or last name"
+    },
+    "countdown": {
+      "message": "Return to home screen in {{ count }} seconds"
+    },
+    "details": {
+      "apartment": "Enter your apartment",
+      "code": "number and personal code",
+      "placeholder": {
+        "apartment": "Apartment Number",
+        "code": "Code"
+      }
+    },
+    "completed": {
+      "close": {
+        "door": "Don't forget <br /> to close the door",
+        "package": "Put another package",
+        "thank": "Thank you for your work! The package code is: {{ code }}"
+      }
+    }
+  },
+  "home": {
+    "notification": "Important message: Postal services will not work during Independence Day"
+  },
+  "resident": {
+    "list": "Resident List",
+    "index": {
+      "mail": {
+        "receiving": "Receiving mail",
+        "certified": "Certified mail",
+        "delivering": "Delivering certified mail"
+      },
+      "package": {
+        "receiving": "Receiving package",
+        "return": "Return package",
+        "waiting": "A package is waiting for you",
+        "delivering": "Delivering a package",
+        "code": "Enter the package code (SMS)"
+      }
+    },
+    "search": {
+      "flat": "Flat",
+      "name": "Name",
+      "apartment": "Apartment"
+    }
+  },
+  "courier": {
+    "delivery": {
+      "pending": {
+        "noFit": "The cell didn't fit, choose a different size",
+        "choose": "Please enter the package in cell number {{ cell }}"
+      },
+      "completed": {
+        "thanks": "Thank you for your work!",
+        "more": "Put another package",
+        "code": "Thank you for your work! The package code is: {{ code }}"
+      },
+      "methods": {
+        "choose": "Choose a resident",
+        "shipping": "For delivery of the package, please enter the shipping code",
+        "scan": "Scan a barcode",
+        "delivery": "For package delivery, please scan the barcode / QR code",
+        "package": {
+          "scan": "Scan a package QR code",
+          "code": "Or enter a package code"
+        }
+      },
+      "company": {
+        "code": {
+          "title": "Enter Company Code"
+        } 
+      }
+    }
+  },
+  "report": {
+    "index": {
+      "lock": "Door won't lock",
+      "open": "Door won't open",
+      "mailbox": "Mailbox display is broken",
+      "main": "Main display is broken",
+      "signal": "No incoming signal received",
+      "barcode": "Barcode reader is broken",
+      "connection": "No connection",
+      "other": "Other problems",
+      "technician": "Technician's entry"
+    },
+    "error": {
+      "received": "Thank you {{ name }}! <br /> We received your error report",
+      "problem": {
+        "title": " {{ name }}, tell us about your problem"
+      }
+    },
+    "technician": {
+      "login": "Login",
+      "username": "User Name",
+      "password": "Password"
+    }
+  },
+  "language": {
+    "index": {
+      "title": "Language Selection"
+    }
+  },
+  "error": {
+    "data": {
+      "incorrect": "Data entered incorrectly"
+    }
+  },
+  "heading": {
+    "report": {
+      "title": "Report an error",
+      "subtitle": "Select the requested subject",
+      "technician": "Technician's entry"
+    },
+    "courier": {
+      "title": "Postman / Courier",
+      "delivery": "Delivering a package",
+      "residents": "Resident List",
+      "subtitle": "Choose a package size"
+    },
+    "resident": {
+      "mail": "Receiving mail",
+      "package": "Receiving Package"
+    }
+  }
+}

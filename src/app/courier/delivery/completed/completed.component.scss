@@ -1,0 +1,28 @@
+.return-home {
+    font-size: var(--base-size);
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    text-align: center;
+    margin-top: calc(var(--box-spacing) * 2);
+    gap: var(--sub-title);
+    align-items: center;
+
+    p {
+      width: 50%;
+    }
+
+}
+
+.base-timer {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}

@@ -1,0 +1,7 @@
+<div *ngIf="text" class="nav-container">
+    <div class="nav-title">
+        <button (click)="back()"><img src="assets/images/svgs/back.svg" /></button>
+        <h2>{{text | translate}}</h2>
+    </div>
+    <p *ngIf="subTitle" class="sub-title">{{subTitle | translate}}</p>
+</div>

@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+
+  .pages {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+}

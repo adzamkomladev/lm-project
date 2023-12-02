@@ -1,0 +1,40 @@
+.error-message {
+  color:  var(--main-red);
+  font-size: var(--base-size);
+  margin-top: var(--base-size);
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border-radius: 28px;
+    background: #FFF;
+    box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.05);
+    padding: var(--title) var(--box-spacing);
+    min-width: 680px;
+    max-width: 100%;
+
+    h4 {
+      margin-bottom: var(--box-spacing);
+      text-align: center;
+    }
+
+    h4, .scan-info {
+      color: var(--green);
+      font-size: var(--base-size);
+    }
+
+    input {
+      width: 100%;
+    }
+
+    button.app-button {
+      margin-top: var(--base-size);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<div class="content-container">
+  <lastmile-link-button
+    route="/courier/delivery"
+    text="{{ 'resident.index.package.delivering' | translate }}"
+    imageUrl="assets/images/svgs/package.svg"
+  ></lastmile-link-button>
+  <lastmile-link-button
+    route="/courier/residents"
+    text="{{ 'resident.list' | translate }}"
+    imageUrl="assets/images/svgs/resident_list.svg"
+  ></lastmile-link-button>
+  <lastmile-link-button
+    [disabled]="true"
+    route="/courier"
+    text="{{ 'resident.index.mail.delivering' | translate }}"
+    imageUrl="assets/images/svgs/mail.svg"
+  ></lastmile-link-button>
+</div>

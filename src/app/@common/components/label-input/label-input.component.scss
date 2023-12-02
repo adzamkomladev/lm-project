@@ -1,0 +1,62 @@
+.input-wrapper {
+  position: relative;
+}
+
+input {
+  border: 1px solid #E6E6E6;
+  position: relative;
+  margin: 10px;
+  margin-bottom: calc(var(--base-size) * 1.2);
+  padding: var(--sub-title);
+  min-width: calc(var(--base-size) * 16);
+  width: 100%;
+  max-width: 100%;;
+  border-radius: var(--sub-title);
+  font-size: var(--base-size);
+  background-color: #F6F6F6;
+  color: var(--main);
+}
+
+label {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  left: 1em;
+  color: var(--main);
+  background-color: white;
+  padding: 0 9px;
+  font-size: var(--sub-title);
+  top: -0.3em;
+}
+
+input:focus {
+  outline: 1px solid var(--main);
+}
+
+input.error:focus {
+  outline: none;
+}
+
+input.label-active {
+  background-color: var(--main-white);
+  border: 2px solid var(--green);
+
+}
+
+.show-label {
+  opacity: 1;
+}
+
+input.error, input.label-active.error {
+  border: 2px solid var(--main-red);
+  background-color: transparent;
+  color: var(--main-red);
+}
+
+input.error::placeholder {
+  color: var(--main-red);
+}
+
+label.error {
+  color: var(--main-red);
+}

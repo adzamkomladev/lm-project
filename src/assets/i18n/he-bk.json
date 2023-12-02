@@ -1,0 +1,80 @@
+{
+  "open": "פתח",
+  "hebrew": "עברית",
+  "chooseLang": "בחירת שפה",
+  "english": "English",
+  "russian": "Russian",
+  "home1": "מסך הבית",
+  "back": "אחורה",
+  "space": "רווח",
+  "letters": "א ב ג",
+  "HOME": {
+    "tenant": "דייר",
+    "deliveryOutgoingMail": "מסירת דואר יוצא",
+    "pullingPack": "משיכת חבילה",
+    "postmanCourier": "דוור / שליח",
+    "deliveryRegisteredMailToTenant": "מסירת דואר רשום לדייר",
+    "deliveryPackToTenant": "מסירת חבילה לדייר",
+    "viewingTenantsName": "צפייה בשמות הדיירים",
+    "withdrawalMail": "משיכת דואר"
+  },
+  "APARTS": {
+    "tenantsNamed": "שמות הדיירים",
+    "there": "שם",
+    "enterName": "הקלד שם או מספר דירה",
+    "apartament": "דירה"
+  },
+  "DELIVER": {
+    "header": "למסירת חבילה, הקלד את הברקוד או סרוק את הברקוד בסורק",
+    "barcode": "ברקוד",
+    "finish": "סיום",
+    "selectPackType": "בחר סוג חבילה",
+    "shipingServiceOption": "חברת שילוח",
+    "newPackOption": "רשימת דיירים",
+    "enterSenderCode": "אנא, הזן את קוד השולח",
+    "selectDesiredSize": "אנא בחר גודל תא רצוי",
+    "small": "קטן",
+    "medium": "בינוני",
+    "big": "גדול",
+    "veryBig": " מאוד גדול",
+    "pleaseInsertPack": "אנא הכנס את החבילה לתא {{boxNumber}} וסגור היטב את התא",
+    "putConfirmInstruction": "אחרי שהכנסת, לחץ לאישור",
+    "putConfirmBtn": "הכנסתי",
+    "noFreeBox": "לצערנו, כל תיבות החבילות מלאות ואין תיבה פנויה. נסה נא במועד אחר."
+  },
+  "openLetterBox": {
+    "header": "לפתיחת תיבת הדואר, הקלד את פרטיך או סרוק את הברקוד בסורק",
+    "apartNumber": "מספר דירה",
+    "code": "סיסמא"
+  },
+  "openPackBox": {
+    "header": "לקבלת חבילה, הקלד את הברקוד או סרוק את הברקוד בסורק",
+    "code": "ברקוד"
+  },
+  "REPORT": {
+    "faultsReport": "",
+    "selectRequestedTopic": "",
+    "cabinDoorDoesNotOpen": "לא נפתחת דלת תא",
+    "doorCompartmentNotLocked": "לא ננעלת דלת תא",
+    "monitorControlScreenNotWorking": "אינו תקין צג מסך בקרה",
+    "barcodeReaderNotworking": "אינו תקין קורא ברקוד",
+    "noIndicationReceivedInbox": "דואר נכנס לא מתקבל חיווי",
+    "monitorMailboxNotworking": "אינו תקין צג תא דואר",
+    "noCommunication": "אין תקשורת",
+    "other": "אחר",
+    "enterCode": "אנא הזן קוד",
+    "comments": "הערות (מלל חופשי)",
+    "confirm": "אישור"
+  },
+  "RESULT": {
+    "closeBoxText": "תודה שאספתם את  הדואר. אנא סגרו היטב את דלת התא",
+    "thankYouGoodbye": "תודה ולהתראות"
+  },
+  "ERRORS": {
+    "incorrectCode": "הקוד שגוי",
+    "deviceNotAvailable": "המכשיר אינו זמין",
+    "serverProblem": "השרת אינו זמין כרגע",
+    "noEmptyBox": "אין תיבה ריקה",
+    "boxAreFull": "התיבה מלאה"
+  }
+}

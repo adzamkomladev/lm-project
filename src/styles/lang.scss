@@ -1,0 +1,25 @@
+.right-lang {
+    font-family: OpenSansHebrew !important;
+}
+
+.right-lang .lang-dir-aware {
+    text-align: right;
+    direction: rtl;
+}
+
+.left-lang .lang-dir-aware {
+    text-align: left;
+    direction: ltr;
+}
+
+.right-lang .rotate-if-right {
+    transform: rotate(180deg);
+}
+
+.left-lang .rotate-if-left {
+    transform: rotate(180deg);
+}
+
+.left-lang .scaleX-if-left {
+    transform: scaleX(-1);
+}

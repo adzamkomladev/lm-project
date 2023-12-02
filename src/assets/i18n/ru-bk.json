@@ -1,0 +1,79 @@
+{
+  "open": "Открыть",
+  "hebrew": "Иврит",
+  "english": "Английский",
+  "russian": "Русский",
+  "chooseLang": "Выберите язык",
+  "home": "Главная",
+  "back": "Назад",
+  "space": "Space",
+  "letters": "Буквы",
+  "HOME": {
+    "tenant": "Арендатор",
+    "deliveryOutgoingMail": "Доставка исходящей почты",
+    "pullingPack": "Забрать пакет",
+    "postmanCourier": "Почтальон / Курьер",
+    "deliveryRegisteredMailToTenant": "Доставка заказной корреспонденции арендатору",
+    "deliveryPackToTenant": "Доставка пакета",
+    "viewingTenantsName": "Просмотр арендаторов",
+    "withdrawalMail": "Забрать почту"
+  },
+  "APARTS": {
+    "tenantsNamed": "Имена арендаторов",
+    "there": "Проживает",
+    "enterName": "Пожалуйста, введите имя получателя",
+    "apartament": "Апартамент"
+  },
+  "DELIVER": {
+    "header": "Чтобы доставить посылку, введите штрих-код или отсканируйте штрих-код сканером",
+    "barcode": "Штрих-код",
+    "finish": "Закончить",
+    "selectPackType": "Выберите тип упаковки",
+    "enterSenderCode": "Пожалуйста, введите код",
+    "weHaveToCheckYou": "Нам нужно проверить",
+    "send": "Отправить",
+    "selectDesiredSize": "Пожалуйста, выберите размер ящика",
+    "small": "Маленький",
+    "medium": "Средний",
+    "big": "Большой",
+    "veryBig": "Очень большой",
+    "noFreeBox": "К сожалению, все упаковочные коробки заполнены и нет свободного места. Пожалуйста, попробуйте в другой раз."
+  },
+  "openLetterBox": {
+    "header": "Чтобы открыть почтовый ящик, введите свои данные или отсканируйте штрих-код сканером",
+    "apartNumber": "Номер квартиры",
+    "code": "Пароль"
+  },
+  "openPackBox": {
+    "header": "Чтобы получить посылку, введите штрих-код или отсканируйте штрих-код сканером",
+    "code": "Штрих-код"
+  },
+  "REPORT": {
+    "faultsReport": "",
+    "selectRequestedTopic": "",
+    "cabinDoorDoesNotOpen": "Дверь кабины не открывается",
+    "doorCompartmentNotLocked": "Дверь кабины не запирается",
+    "monitorControlScreenNotWorking": "Монитор экрана управления не работает",
+    "barcodeReaderNotworking": "Считыватель штрих-кода не работает",
+    "noIndicationReceivedInbox": "Индикация входящей почты не получена",
+    "monitorMailboxNotworking": "Монитор почтового ящика не работает",
+    "noCommunication": "Нет связи",
+    "other": "Другое",
+    "enterCode": "Пожалуйста, введите код",
+    "comments": "Комментарии (свободный текст)",
+    "confirm": "Подтвердить"
+  },
+  "RESULT": {
+    "closeBoxText": "Спасибо за сбор почты. Пожалуйста, плотно закройте дверь кабины",
+    "thankYouGoodbye": "Спасибо и до свидания",
+    "pleaseInsertPack": "Пожалуйста, положите пакет в отделение ",
+    "thenCloseCompartment": "а затем плотно закройте отсек"
+  },
+  "ERRORS": {
+    "incorrectCode": "Код неверный",
+    "deviceNotAvailable": "Устройство недоступно",
+    "serverProblem": "Сервер временно недоступен",
+    "noEmptyBox": "Нет пустого ящика",
+    "boxAreFull": "Ящик полный"
+  }
+}
